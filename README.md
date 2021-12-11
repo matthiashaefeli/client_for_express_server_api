@@ -1,3 +1,9 @@
+# Start project with mongo db and node server
+
+react_course/auth/server: mongod --dbpath=/Users/matyou/data/db
+react_course/auth/server: npm run dev
+react_course/auth/client: yarn start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
