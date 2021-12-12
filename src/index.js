@@ -29,7 +29,7 @@ ReactDom.render(
         <Route path="/signup" exact component={Signup} />
         <Route path="/feature" component={Feature} />
         <Route path="/signout" component={Signout} />
-        <Route path="/singin" component={Signin} />
+        <Route path="/signin" component={Signin} />
       </App>
     </BrowserRouter>
   </Provider>,
